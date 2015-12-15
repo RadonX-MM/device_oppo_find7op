@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480 \
-    persist.camera.4k2k.enable=1
+    persist.camera.4k2k.enable=1 \
+    persist.sys.lazy.dexopt=true
 
 # Use Qualcomm build macros
 -include device/oneplus/bacon/utils.mk
