@@ -36,10 +36,13 @@ PRODUCT_COPY_FILES += \
 
 # TCMIFace
 PRODUCT_PACKAGES += \
-    tcmiface
+    tcmiface \
+    TelephonyProvider
+
 # QCOM WLAN
 PRODUCT_PACKAGES += \
     lib_driver_cmd_qcwcn
+
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
