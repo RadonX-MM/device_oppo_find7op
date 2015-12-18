@@ -20,10 +20,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # NFC packages
-PRODUCT_PACKAGES += \
-    NfcNci \
-    nfc_nci.msm8974 \
-    Tag
+#PRODUCT_PACKAGES += \
+#    NfcNci \
+#    nfc_nci.msm8974 \
+#    Tag
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
